@@ -11,7 +11,7 @@ writeRandomQuote = function () {
 
 function copyDate() {
   let footer = document.getElementById("copyright")
-  let copyrightText = "Copyright [JAKE] ©" + new Date().getFullYear()
+  let copyrightText = "Copyright JAKE ©" + new Date().getFullYear()
   footer.innerText = copyrightText
 }
 
